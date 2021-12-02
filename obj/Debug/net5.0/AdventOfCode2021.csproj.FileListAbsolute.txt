@@ -1,0 +1,16 @@
+C:\repos\Advent2021\AdventOfCode2021\bin\Debug\net5.0\AdventOfCode2021.exe
+C:\repos\Advent2021\AdventOfCode2021\bin\Debug\net5.0\AdventOfCode2021.deps.json
+C:\repos\Advent2021\AdventOfCode2021\bin\Debug\net5.0\AdventOfCode2021.runtimeconfig.json
+C:\repos\Advent2021\AdventOfCode2021\bin\Debug\net5.0\AdventOfCode2021.runtimeconfig.dev.json
+C:\repos\Advent2021\AdventOfCode2021\bin\Debug\net5.0\AdventOfCode2021.dll
+C:\repos\Advent2021\AdventOfCode2021\bin\Debug\net5.0\ref\AdventOfCode2021.dll
+C:\repos\Advent2021\AdventOfCode2021\bin\Debug\net5.0\AdventOfCode2021.pdb
+C:\repos\Advent2021\AdventOfCode2021\obj\Debug\net5.0\AdventOfCode2021.csprojAssemblyReference.cache
+C:\repos\Advent2021\AdventOfCode2021\obj\Debug\net5.0\AdventOfCode2021.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\Advent2021\AdventOfCode2021\obj\Debug\net5.0\AdventOfCode2021.AssemblyInfoInputs.cache
+C:\repos\Advent2021\AdventOfCode2021\obj\Debug\net5.0\AdventOfCode2021.AssemblyInfo.cs
+C:\repos\Advent2021\AdventOfCode2021\obj\Debug\net5.0\AdventOfCode2021.csproj.CoreCompileInputs.cache
+C:\repos\Advent2021\AdventOfCode2021\obj\Debug\net5.0\AdventOfCode2021.dll
+C:\repos\Advent2021\AdventOfCode2021\obj\Debug\net5.0\ref\AdventOfCode2021.dll
+C:\repos\Advent2021\AdventOfCode2021\obj\Debug\net5.0\AdventOfCode2021.pdb
+C:\repos\Advent2021\AdventOfCode2021\obj\Debug\net5.0\AdventOfCode2021.genruntimeconfig.cache
