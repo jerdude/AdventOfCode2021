@@ -14,63 +14,24 @@ namespace AdventOfCode2021
 
         private int GetPart1()
         {
-            var _inputs = File.ReadLines("Inputs\\Day1.txt")
+            var inputs = File.ReadLines("Inputs\\Day1.txt")
                         .Select(x => int.Parse(x))
                         .ToArray();
 
-            int last = int.MaxValue;
-            int total = 0;
-            foreach(int i in _inputs)
-            {
-                if(i > last)
-                    total++;
-
-                last = i;
-            }
-
-            return total;
+            return Enumerable.Range(1, inputs.Length -1)
+                    .Where(i => inputs[i] > inputs[i-1])
+                    .Count();
         }
-
-        private int GetPart1Short()
-        {
-            var _inputs = File.ReadLines("Inputs\\Day1.txt")
-                        .Select(x => int.Parse(x))
-                        .ToArray();
-
-            int last = int.MaxValue;
-            int total = 0;
-            foreach(int i in _inputs)
-            {
-                if(i > last)
-                    total++;
-
-                last = i;
-            }
-
-            return _inputs.Skip(1).Where(i => _inputs[i] > _inputs[i-1]).Count();
-        }
-
         private int GetPart2()
         {
-            var _inputs = File.ReadLines("Inputs\\Day1.txt")
-                        .Select(x => int.Parse(x))
-                        .ToArray();
+            var inputs = File.ReadLines("Inputs\\Day1.txt").Select(x => int.Parse(x)).ToArray();
 
-            int last = int.MaxValue;
-            int total = 0;
-
-            for(int i = 2; i < _inputs.Length; i++)
-            {
-                int current = _inputs[i] + _inputs[i-1] + _inputs[i-2];
-                
-                if(current > last)
-                    total++;
-
-                last = current;
-            }
-
-            return total;
+            return Enumerable.Range(3, inputs.Length - 3)
+                        .Where(i => inputs.Skip(i-1).Take(3).Sum() > inputs.Skip(i-2).Take(3).Sum() )
+                        .Count();
         }
+
+
 
     }
 
