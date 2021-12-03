@@ -66,10 +66,7 @@ namespace AdventOfCode2021
             var inputs = File.ReadLines("Inputs\\Day3.txt").ToArray();
 
             var most = (string[])inputs.Clone();
-            var least = (string[])inputs.Clone();
-
             int oxygen = 0;
-            int co2 = 0;
 
             for(int i = 0; i < 12; i++)
             {
@@ -83,6 +80,9 @@ namespace AdventOfCode2021
                 if(most.Length == 1)
                     oxygen = Convert.ToInt32(most.First(), 2);
             }
+
+            var least = (string[])inputs.Clone();
+            int co2 = 0;
 
             for(int i = 0; i < 12; i++)
             {
