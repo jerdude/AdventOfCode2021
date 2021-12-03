@@ -22,9 +22,14 @@ namespace AdventOfCode2021
                         Program.PrintSolution(day1Results.solution, day1Results.bonus);
                         break;
                     case "2":
-                        var day2 = new Day2();
-                        var day2Results = day2.GetSolution();
-                        Program.PrintSolution(day2Results.solution, day2Results.bonus);
+                        var Day2 = new Day2();
+                        var Day2Results = Day2.GetSolution();
+                        Program.PrintSolution(Day2Results.solution, Day2Results.bonus);
+                        break;
+                    case "3":
+                        var day3 = new Day3();
+                        var day3Results = day3.GetSolution();
+                        Program.PrintSolution(day3Results.solution, day3Results.bonus);
                         break;
                     default:
                         Console.WriteLine("Invalid Input. Enter q to quit.");
