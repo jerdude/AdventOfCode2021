@@ -31,6 +31,11 @@ namespace AdventOfCode2021
                         var day3Results = day3.GetSolution();
                         Program.PrintSolution(day3Results.solution, day3Results.bonus);
                         break;
+                    case "4":
+                        var day4 = new Day4();
+                        var day4Results = day4.GetSolution();
+                        Program.PrintSolution(day4Results.solution, day4Results.bonus);
+                        break;
                     default:
                         Console.WriteLine("Invalid Input. Enter q to quit.");
                         break;
